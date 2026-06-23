@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label-sm {
+    @apply block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1;
+  }
+}
